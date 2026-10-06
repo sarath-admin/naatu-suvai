@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { siteData } from "@/data/siteData";
 import { generateWhatsAppLink } from "@/lib/utils";
@@ -32,9 +33,11 @@ export default function Header() {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-brand-cream/95 backdrop-blur-md shadow-md py-3" : "bg-transparent py-5"}`}>
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-4">
-          <img 
+          <Image 
             src="/logo.png" 
             alt="Naatu Suvai Logo" 
+            width={80}
+            height={80}
             className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover shadow-md bg-white border-2 border-brand-gold transition-transform duration-300 hover:scale-105" 
           />
           <span className={`font-serif text-2xl md:text-3xl font-bold tracking-tight hidden sm:block ${isScrolled ? "text-brand-green" : "text-white"}`}>

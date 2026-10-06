@@ -26,7 +26,7 @@ export default function Specials() {
     <section className="py-20 bg-brand-green text-brand-cream overflow-hidden">
       <div className="container mx-auto px-4 md:px-6 relative">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-serif text-brand-gold mb-4">Chef's Specials</h2>
+          <h2 className="text-3xl md:text-5xl font-serif text-brand-gold mb-4">Chef&apos;s Specials</h2>
           <p className="text-brand-cream/80 max-w-2xl mx-auto">Exclusive dishes curated by our head chef, available for a limited time.</p>
         </div>
 

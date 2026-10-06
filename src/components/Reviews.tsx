@@ -44,7 +44,7 @@ export default function Reviews() {
                   ))}
                 </div>
                 <p className="text-xl md:text-3xl font-serif text-brand-charcoal mb-8 leading-relaxed italic">
-                  "{reviews[currentIndex].text}"
+                  &quot;{reviews[currentIndex].text}&quot;
                 </p>
                 <div className="font-bold text-lg text-brand-green uppercase tracking-widest">
                   — {reviews[currentIndex].name}

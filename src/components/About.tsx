@@ -42,13 +42,13 @@ export default function About() {
             
             <div className="space-y-6 text-brand-charcoal/80 text-lg leading-relaxed">
               <p>
-                At Naatu Suvai, we believe that food is more than just sustenance; it's a connection to our roots, our culture, and our families. Our journey began with a simple desire: to bring the authentic, unadulterated flavors of South Indian home kitchens to the modern dining table.
+                At Naatu Suvai, we believe that food is more than just sustenance; it&apos;s a connection to our roots, our culture, and our families. Our journey began with a simple desire: to bring the authentic, unadulterated flavors of South Indian home kitchens to the modern dining table.
               </p>
               <p>
-                Every spice we use is hand-ground, every recipe is a cherished family heirloom, and every dish is prepared with the same love and care you'd find in a traditional household. We source our ingredients locally and sustainably, ensuring that every bite is fresh, flavorful, and true to its origins.
+                Every spice we use is hand-ground, every recipe is a cherished family heirloom, and every dish is prepared with the same love and care you&apos;d find in a traditional household. We source our ingredients locally and sustainably, ensuring that every bite is fresh, flavorful, and true to its origins.
               </p>
               <p>
-                Whether it's the fiery notes of our Chettinad curries or the soothing comfort of our Elaneer Payasam, we invite you to experience the true <span className="font-bold text-brand-green">"Taste of the Native Land"</span>.
+                Whether it&apos;s the fiery notes of our Chettinad curries or the soothing comfort of our Elaneer Payasam, we invite you to experience the true <span className="font-bold text-brand-green">&quot;Taste of the Native Land&quot;</span>.
               </p>
             </div>
             
